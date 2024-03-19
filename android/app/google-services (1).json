@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281780973054",
+    "project_id": "mysmart-a4f78",
+    "storage_bucket": "mysmart-a4f78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281780973054:android:1219acf3a519d0eff3a4af",
+        "android_client_info": {
+          "package_name": "com.example.flutter_login_register_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDCH8xi2a7gD4s9GpLu-8Zt7RBDnKVLrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+name: flutter_login_register_ui
+description: Flutter Login & Register UI.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The version and build number of the app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Main dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+    # flutter_svg: ^1.1.4
+  firebase_core: ^2.25.4
+  cloud_firestore: ^4.15.4
+  firebase_auth: ^4.17.4
+  firebase_storage: ^11.6.5
+
+  cupertino_icons: ^1.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+
+# Flutter specific packages
+flutter:
+  # Add project assets
+  assets:
+    - assets/images/
+    - assets/fonts/
+  
+  fonts:
+    - family: GeneralSans
+      fonts:
+        - asset: assets/fonts/GeneralSans-Light.ttf
+        - asset: assets/fonts/GeneralSans-Regular.ttf
+        - asset: assets/fonts/GeneralSans-Medium.ttf
+        - asset: assets/fonts/GeneralSans-Semibold.ttf
+        - asset: assets/fonts/GeneralSans-Bold.ttf
+  
+  uses-material-design: true
